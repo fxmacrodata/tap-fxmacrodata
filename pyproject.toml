@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tap-fxmacrodata"
+version = "0.1.0"
+description = "Singer tap for FXMacroData: official macroeconomic, FX and release-calendar data for 18 currencies"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+keywords = ["singer", "meltano", "elt", "macroeconomic", "forex", "fxmacrodata"]
+classifiers = [
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+]
+dependencies = ["singer-sdk>=0.40,<1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "singer-sdk[testing]>=0.40,<1"]
+
+[project.urls]
+Homepage = "https://fxmacrodata.com"
+Documentation = "https://fxmacrodata.com/documentation/reference"
+Source = "https://github.com/fxmacrodata/tap-fxmacrodata"
+
+[project.scripts]
+tap-fxmacrodata = "tap_fxmacrodata.tap:TapFXMacroData.cli"
+
+[tool.hatch.build.targets.wheel]
+packages = ["tap_fxmacrodata"]
