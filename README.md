@@ -1,6 +1,6 @@
 # tap-fxmacrodata
 
-A [Singer](https://www.singer.io/) tap for [FXMacroData](https://fxmacrodata.com/?utm_source=meltano&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=readme), built with the Meltano SDK.
+A [Singer](https://www.singer.io/) tap for [FXMacroData](https://fxmacrodata.com/?utm_source=github-tap-fxmacrodata&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=readme), built with the Meltano SDK.
 
 FXMacroData aggregates official publishers — central banks and national
 statistics agencies — across 18 currencies behind one contract, and stamps every
@@ -64,7 +64,7 @@ trying it before deciding anything:
 
 A key covers the other seventeen currencies, the full history, and FX. It is
 sent as an `X-API-Key` header, so it never lands in a URL or a request log.
-[Subscribe](https://fxmacrodata.com/subscribe?utm_source=meltano&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=subscribe).
+[Subscribe](https://fxmacrodata.com/subscribe?utm_source=github-tap-fxmacrodata&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=subscribe).
 
 ### Finding indicators
 
@@ -96,7 +96,7 @@ pytest
 
 ## Links
 
-- [API reference](https://fxmacrodata.com/documentation/reference?utm_source=meltano&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=docs)
+- [API reference](https://fxmacrodata.com/documentation/reference?utm_source=github-tap-fxmacrodata&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=docs)
 - [Singer specification](https://github.com/singer-io/getting-started)
 
 MIT licensed.
