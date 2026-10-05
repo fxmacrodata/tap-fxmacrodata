@@ -61,8 +61,8 @@ class FXMacroDataStream(RESTStream):
             self.logger.warning(
                 "%s is not available with the configured access; skipping. "
                 "See https://fxmacrodata.com/subscribe"
-                "?utm_source=tap-fxmacrodata&utm_medium=integration"
-                "&utm_campaign=open_source_integrations&utm_content=tap_log",
+                "?utm_source=meltano&utm_medium=integration"
+                "&utm_campaign=tap-fxmacrodata&utm_content=log",
                 response.request.url.split("?")[0] if response.request.url else self.path,
             )
             return

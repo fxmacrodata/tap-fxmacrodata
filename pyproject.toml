@@ -21,8 +21,8 @@ dependencies = ["singer-sdk>=0.40,<1"]
 dev = ["pytest>=8", "singer-sdk[testing]>=0.40,<1"]
 
 [project.urls]
-Homepage = "https://fxmacrodata.com"
-Documentation = "https://fxmacrodata.com/documentation/reference"
+Homepage = "https://fxmacrodata.com/?utm_source=pypi&utm_medium=referral&utm_campaign=tap-fxmacrodata&utm_content=homepage"
+Documentation = "https://fxmacrodata.com/documentation/reference?utm_source=pypi&utm_medium=referral&utm_campaign=tap-fxmacrodata&utm_content=docs"
 Source = "https://github.com/fxmacrodata/tap-fxmacrodata"
 
 [project.scripts]
